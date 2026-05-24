@@ -42,3 +42,19 @@ git commit -m "Your commit message"
 \# Stage all tracked files and commit them in one step
 git commit -am "Your commit message"
 
+# Examining History and Differences
+
+\# View the commit history list
+git log
+
+\# View a clean, single-line graphic timeline graph
+git log --oneline --graph --decorate
+
+\# Show variations between your working directory and your staging area
+git diff
+
+\# Show variations between your staged files and your last commit
+git diff --staged
+
+\# View the metadata and code changes of a specific commit
+git show <commit-hash>
