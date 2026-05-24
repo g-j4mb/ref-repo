@@ -1,10 +1,10 @@
 # Setup and Configuration
 
-\# Set your identity globally
+## Set your identity globally
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 
-\# Set default branch name to main
+### Set default branch name to main
 git config --global init.defaultBranch main
 
 \# Check all configuration settings
