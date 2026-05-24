@@ -172,3 +172,10 @@ git reflog
 
 /# Optimize repository database storage and delete unreachable junk files
 git gc --prune=now
+
+
+# issues
+/# remote: error: GH007: Your push would publish a private email address.
+git config --global user.email "ID+username@users.noreply.github.com"
+git commit --amend --reset-author --no-edit
+git push -u origin main
